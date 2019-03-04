@@ -1,0 +1,24 @@
+{
+  "name": "testing-showcase",
+  "version": "1.0.0",
+  "description": "Simple project for unit testing tryouts",
+  "main": "index.js",
+  "scripts": {
+    "json-server": "json-server --watch db.json",
+    "test": "ava"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "^1.2.1",
+    "json-server": "^0.14.2"
+  },
+  "ava": {
+    "files": [
+      "**/*.spec.js"
+    ],
+    "inherit": true,
+    "verbose": true
+  }
+}
