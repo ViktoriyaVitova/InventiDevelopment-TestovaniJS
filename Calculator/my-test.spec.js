@@ -1,5 +1,5 @@
-import test from 'ava';
+import test from "ava";
 
-test ("test my test", t=> t.pass()
-//change  
-);
+test("test my test", t => {
+  // Insert your first test
+});
